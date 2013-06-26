@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:button="@drawable/custom_btn"
+        android:checked="false"/>
+    
+</LinearLayout>
