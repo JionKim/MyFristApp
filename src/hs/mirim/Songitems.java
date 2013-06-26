@@ -3,10 +3,15 @@ package hs.mirim;
 public class Songitems {
 	private String singer;
 	private String songname;
-	public Songitems(String songname,String singer){
+	private String url;
+	public Songitems(String songname,String singer, String url){
 		this.songname=songname;
 		this.singer=singer;
+		this.url = url;
 		
+	}
+	public String getUrl() {
+		return url;
 	}
 	public String getSongname() {
 		return songname;

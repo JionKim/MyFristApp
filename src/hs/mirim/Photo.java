@@ -24,7 +24,7 @@ public class Photo<E> extends Activity {
 		setContentView(R.layout.photo);
 		items=new ArrayList<Integer>();
 		
-		for (int i = 1; i < 31; i++) {
+		for (int i = 1; i < 51; i++) {
 			int img = this.getResources().getIdentifier("p"+i, "drawable", this.getPackageName());
 			items.add(img);
 		}
