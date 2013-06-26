@@ -21,6 +21,7 @@
         <activity android:name=".MyApp02"></activity>
         <activity android:name=".Photo"></activity>
          <activity android:name=".Song"></activity>
+         <activity android:name=".Food"></activity>
     </application>
 
 </manifest>

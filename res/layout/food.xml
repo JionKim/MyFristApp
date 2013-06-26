@@ -6,7 +6,7 @@
     android:background="@drawable/batang">
 
     <ImageView 
-        android:src="@drawable/song_title"
+        android:src="@drawable/food_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <ListView

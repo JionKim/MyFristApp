@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 public class Food extends Activity {
@@ -11,15 +12,16 @@ public class Food extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		setTheme(android.R.style.Theme_NoTitleBar);
 		setContentView(R.layout.food);
-		
-		final ArrayList<Songitems> feeds=new ArrayList<Songitems>();
-	    Songitems sampleFed1=new Songitems("Kiss The Rain", "이루마", "");
+		ImageView foodimg=(ImageView)findViewById(R.id.foodimage);
+		final ArrayList<Fooditems> feeds=new ArrayList<Fooditems>();
+	    Fooditems sampleFed1=new Fooditems(R.drawable.f1,"초콜릿");
 	    feeds.add(sampleFed1);
 	    
 	    ListView listview2=(ListView)this.findViewById(R.id.foodList);
 
-	    SongitemsArrayAdater adapter=new SongitemsArrayAdater(this, R.layout.fooditem, feeds);
+	    FooditemsArrayAdater adapter=new FooditemsArrayAdater(this, R.layout.fooditem, feeds);
 	    listview2.setAdapter(adapter);
 	}
 }

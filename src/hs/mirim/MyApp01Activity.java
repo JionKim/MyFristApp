@@ -25,7 +25,7 @@ public class MyApp01Activity extends Activity {
 				startActivity(intent);
 				finish();
 			}
-		}, 3000);
+		}, 2000);
         
     }
 }

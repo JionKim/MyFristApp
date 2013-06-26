@@ -68,23 +68,23 @@ public class Song extends Activity implements OnItemClickListener {
 		feeds.add(sampleFed21);
 		Songitems sampleFed22=new Songitems("stay in memory","이루마","http://www.youtube.com/watch?v=IazSI5l7h8k");
 		feeds.add(sampleFed22);
-	/*	Songitems sampleFed23=new Songitems("캐논변주곡","george winston");
+		Songitems sampleFed23=new Songitems("캐논변주곡","george winston","http://www.youtube.com/watch?v=XL1X1ar953A");
 		feeds.add(sampleFed23);
-		Songitems sampleFed24=new Songitems("Take Five","Dave Brubeck");
+		Songitems sampleFed24=new Songitems("Take Five","Dave Brubeck","http://www.youtube.com/watch?v=S-x_f60VSC4");
 		feeds.add(sampleFed24);
-		Songitems sampleFed25=new Songitems("flying petals","이지수");
+		Songitems sampleFed25=new Songitems("flying petals","이지수","http://www.youtube.com/watch?v=0fOKHB_FKkE");
 		feeds.add(sampleFed25);
-		Songitems sampleFed26=new Songitems("몽환의 숲","키네틱 플로우");
+		Songitems sampleFed26=new Songitems("몽환의 숲","키네틱 플로우","http://www.youtube.com/watch?v=qp8gfkhG2SU");
 		feeds.add(sampleFed26);
-		Songitems sampleFed27=new Songitems("Butterfly Waltz","Brian Crain");
+		Songitems sampleFed27=new Songitems("Butterfly Waltz","Brian Crain","http://www.youtube.com/watch?v=xqCdKOdX5FQ");
 		feeds.add(sampleFed27);
-		Songitems sampleFed28=new Songitems("Rain Drop","아이유");
+		Songitems sampleFed28=new Songitems("Rain Drop","아이유","http://www.youtube.com/watch?v=wSToN5GEaqE");
 		feeds.add(sampleFed28);
-		Songitems sampleFed29=new Songitems("A simple life","Brian Crain");
+		Songitems sampleFed29=new Songitems("A simple life","Brian Crain","http://www.youtube.com/watch?v=DEVtRYmgAzo");
 		feeds.add(sampleFed29);
-		Songitems sampleFed30=new Songitems("바이올린 협주곡 D장조","차이코프스키");
+		Songitems sampleFed30=new Songitems("바이올린 협주곡 D장조","차이코프스키","http://www.youtube.com/watch?v=1afGHWNZvy4");
 		feeds.add(sampleFed30);
-*/
+
 		ListView listview=(ListView)this.findViewById(R.id.songList);
 
 		SongitemsArrayAdater adapter=new SongitemsArrayAdater(this, R.layout.songitem, feeds);
